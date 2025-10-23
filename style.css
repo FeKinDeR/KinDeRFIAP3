@@ -366,11 +366,11 @@ footer {
 
 /* 🟡 Botão YouTube */
 .botaoyt a {
-  color: rgba(35, 7, 139, 1);
+  color: rgb(255, 255, 255);
 }
 
 .botaoyt button {
-  background-color: #ffffff;
+  background-color: #1b5e20;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
