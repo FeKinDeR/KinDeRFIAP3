@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologias no Agronegócio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const links = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+  });
+</script>
+
+
+  <nav class="navbar">
+    <div class="logo">
+  <img src="logo09.png" alt="Logo AgroTech Grupo 09">
+  <span>AgroTech Grupo09</span>
+</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tecnologias.html" class="active">Tecnologias</a></li>
+      <li><a href="links.html">Órgãos e Iniciativas</a></li>
+      <li><a href="sobre.html">Sobre Nós</a></li>
+      <li><a href="contato.html">Fale Conosco</a></li>
+    </ul>
+  </nav>
+
+  <section class="tecnologias">
+    <h2>Principais Tecnologias</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://s2-oglobo.glbimg.com/R0WAHnWVn958Lo4PpOaaHU7uJW4=/0x0:5472x3648/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/p/a/Lvs48dQt60cgAGPiVy3g/pelicano-tf30l.jpg" alt="Drone agrícola">
+        <h3>Drones</h3>
+        <p>Usados para mapeamento, pulverização e monitoramento de lavouras.</p>
+      </div>
+      <div class="card">
+        <img src="https://i0.wp.com/v2com.com/wp-content/uploads/2018/12/sensores-de-IoT.png?resize=768%2C597&ssl=1" alt="Sensores IoT">
+        <h3>IoT e Sensores</h3>
+        <p>Monitoram dados de solo, clima e produtividade em tempo real.</p>
+      </div>
+      <div class="card">
+        <img src="https://fvivas.com/wp-content/uploads/2024/01/aprendizado-de-maquina-inteligencia-artificial.jpeg.webp" alt="Inteligência artificial no campo">
+        <h3>Inteligência Artificial</h3>
+        <p>Analisa dados para prever safras e otimizar decisões agrícolas.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Grupo 09 FIAP | Tecnologias no Agronegócio</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+  </script>
+</body>
+</html>
